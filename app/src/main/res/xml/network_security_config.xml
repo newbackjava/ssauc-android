@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">ssauc.shop</domain> <!-- 특정 도메인만 허용 -->
+    </domain-config>
+</network-security-config>
